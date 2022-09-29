@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Epilogue', sans-serif;
+}
+
+#navbar {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+#navbar i {
+    padding-right: 0.4em;
+    display: inline;
+}
+
+#main {
+    padding-top: 6em;
+}
+
+#main .words {
+    padding-top: 6em;
+    padding-left: 10em;
+}
+
+#main .words h1 {
+    color: hsl(0, 0%, 8%);
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2;
+}
+
+#main .words p {
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#main .words a {
+    text-decoration: none;
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 4px;
+    padding: 1em 2em;
+    color: hsl(0, 0%, 8%);
+}
+
+#main .words div {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main .image {
+    height: 560px;
+    width: 499px;
+    padding-left: 6em;
+}
+
+#main .image img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    #main {
+        padding-top: 0.2em;
+    }
+
+    #main .words {
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    #main .words h1 {
+        color: hsl(0, 0%, 8%);
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    #main .words p {
+        color: hsl(0, 0%, 41%);
+        font-size: 18px;
+        margin-top: 0.5em;
+        letter-spacing: 1px;
+        margin-bottom: 2em;
+    }
+
+    #main .words a {
+        text-decoration: none;
+        border: 1px solid hsl(0, 0%, 41%);
+        border-radius: 4px;
+        padding: 1em 2em;
+        background-color: hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 98%);
+    }
+
+    #main .words div {
+        margin-top: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #main .words div img {
+        width: 70px;
+    }
+
+    #main .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: 400px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 4em;
+        margin-top: 1em;
+    }
+
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero-design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-lg-5" id="navbar" aria-label="Offcanvas navbar large"
+        id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label"><img src="images/logo.svg" alt=""></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 mx-lg-3">
+                        <li class="nav-item dropdown mx-lg-3">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Features</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> <i><img src="images/icon-todo.svg" alt=""></i> Todo List</a></li>
+                                <li><a class="dropdown-item" href="#"><i><img src="images/icon-calendar.svg" alt=""></i>Calendars</a></li>
+                                <li><a class="dropdown-item" href="#"><i><img src="images/icon-reminders.svg" alt=""></i>Reminders</a></li>
+                                <li><a class="dropdown-item" href="#"><i><img src="images/icon-planning.svg" alt=""></i>Planning</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-lg-3">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Company</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex mt-3 mt-lg-0" role="search">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-lg-2">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item mx-lg-2">
+                                <button class="btn btn-outline-success" type="submit">Register</button>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="main">
+        <div class="row">
+            <div class="col-md-6 words">
+                <h1>Make <br> remote work</h1>
+                <p>Get your team in sync, no matter your location.
+                    Streamline processes, create team rituals, and 
+                    watch productivity soar.</p>
+                <a href="">Learn more</a>
+                <div>
+                    <span><img src="images/client-databiz.svg" alt=""></span>
+                    <span><img src="images/client-audiophile.svg" alt=""></span>
+                    <span><img src="images/client-meet.svg" alt=""></span>
+                    <span><img src="images/client-maker.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="col-md-6 image">
+                <img src="images/image-hero-desktop.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
